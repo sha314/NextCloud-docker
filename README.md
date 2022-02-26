@@ -37,4 +37,16 @@ docker-compose --version
 
 
 # Install NextCloud
+1. go to a directory and create some folders 
+$ mkdir database
+$ mkdir html
+2. run the following command
+$ docker-compose up -d
+
+# Let's check
+check for ip address and port
+$ docker ps
+login using the address in "PORTS" column
+
+
 
